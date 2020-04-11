@@ -1,0 +1,110 @@
+.page-accueil{
+
+                  max-width:    1000px;
+                  width:          100%;
+                  margin:       0 auto;
+                  min-height:   1000px;
+                  height:         100%;
+                  position:   relative;
+}
+
+@media screen and (max-width:320px){ /*iphone 5*/
+
+              .page-accueil{
+                margin-top: 5em;
+              }
+
+              h1{
+                text-align: center;
+              }
+
+              .button-now{
+                margin-left: 8em;
+                margin-top: 10em;
+                background-color: grey;
+                padding: 2rem 4rem;
+                border-radius: 1em;
+              }
+
+              .plan-for-later{
+                font-size: small;
+                padding-left: 10em;
+                padding-top: 2em;
+              }
+
+}
+
+@media screen and (max-width:375px){ /*iphone 6/7/8 */
+  .page-accueil{
+    margin-top: 10em;
+  }
+
+  .button-now{
+    margin-left: 10em;
+    background-color: grey;
+    padding: 2rem 4rem;
+    border-radius: 1em;
+  }
+
+  .plan-for-later{
+    margin-left: 2em;
+    font-size: small;
+    padding-left: 10em;
+    padding-top: 2em;
+  }
+}
+
+@media screen and (max-width:414px){ /*iphone 6/7/8 PLUS*/
+
+  h1{
+    margin-left: 7.5em;
+  }
+  .page-accueil{
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+
+  .button-now{
+    margin-left: 12em;
+    background-color: grey;
+    padding: 2rem 4rem;
+    border-radius: 1em;
+
+  }
+
+  .plan-for-later{
+    margin-left: 3em;
+    font-size: small;
+    padding-left: 10em;
+    padding-top: 2em;
+
+  }
+}
+
+
+@media screen and (max-width:375px){ /*iphone X*/
+  .page-accueil{
+    margin-top: 10em;
+  }
+
+  h1{
+    margin-left: 6.6em;
+  }
+
+  .button-now{
+    margin-top: 10em;
+    margin-left: 9em;
+    background-color: grey;
+    padding: 2rem 4rem;
+    border-radius: 1em;
+
+  }
+
+  .plan-for-later{
+    margin-left: 1em;
+    font-size: small;
+    padding-left: 10em;
+    padding-top: 2em;
+
+  }
+}
