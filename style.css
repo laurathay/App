@@ -1,3 +1,10 @@
+#header{
+
+                  max-width:    1500px;
+                  width: :        100%;
+                  display:inline-block;
+}
+
 .page-accueil{
 
                   max-width:    1000px;
@@ -12,7 +19,7 @@
   width: auto;
 }
 
-@media screen and (max-width:320px){ /*iphone 5*/
+@media screen and (max-width:320px max-height:568px){ /*iphone 5*/
 
               .page-accueil{
                 margin-top: 5em;
@@ -36,6 +43,18 @@
                 padding-top: 2em;
               }
 
+
+                /* page what*/
+
+               nav li a{
+                        list-style: none;
+                        font-size: 0.2em;
+                        text-decoration: none;
+              }
+
+              ul li a {
+                text-decoration: none;
+              }
 }
 
 @media screen and (max-width:375px){ /*iphone 6/7/8 */
@@ -71,6 +90,29 @@
   h1{
     margin-left: 7.5em;
   }
+
+/*    h1{
+
+                          font-size:    1.25rem;
+                          line-height:      1.5;
+                          text-align:   justify;
+                          animation-duration: 3s;
+                          animation-name: glissement;
+  }
+
+  @keyframes slidein {
+
+                          from {
+                            margin-left: 150%;
+                            width:       300%;
+                          }
+
+                          to {
+                            margin-left: 50%;
+                            width:      100%;
+                          }
+  }
+*/
   .page-accueil{
     margin-top: 5em;
     margin-bottom: 5em;
@@ -95,9 +137,9 @@
 }
 
 
-@media screen and (max-width:375px){ /*iphone X*/
+@media screen and (max-width:375px max-height:812px){ /*iphone X*/
   .icone-parametre{
-    margin-left: 19em;
+    margin-left: 15em;
     margin-top: 1em;
     height: 1em;
   }
@@ -126,4 +168,83 @@
     padding-top: 2em;
 
   }
+}
+
+
+
+/*---------------------- page what ---------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  color: #435757;
+  background: radial-gradient(#fff, #dac4cd);
+  font: 1.4em/1 'Noto Sans', sans-serif;
+}
+
+.containernav label{
+  display:inline-block;
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -40%);
+}
+
+input {
+  position: absolute;
+  left: -9999px;
+}
+
+label {
+  display: block;
+  position: relative;
+  margin: 20px;
+  padding: 15px 30px 15px 62px;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #6a8494;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+}
+
+label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: 32px;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  transition: background-color .2s;
+}
+
+
+label:hover, input:focus + label {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+}
+
+input:checked + label {
+  background-color: #ab576c;
+}
+
+input:checked + label::before {
+  background-color: #fff;
 }
