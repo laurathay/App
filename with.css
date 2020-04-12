@@ -15,6 +15,20 @@ header{
   margin-left: 1.5em;
 }
 
+.inline .titre-with, .icone-infos{
+  display: inline-block;
+}
+
+.titre-with{
+  margin-left: 5em;
+}
+
+.img-size{
+  width:30%;
+  margin-left: 0.5em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 h1{
   margin-top: 3em;
   margin-bottom: 1em;
