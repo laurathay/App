@@ -110,3 +110,18 @@ input:checked + label {
 input:checked + label::before {
   background-color: #fff;
 }
+
+/*---------page mood-----------*/
+
+.custom-select{
+  margin-left: 5em;
+  width:6em;
+  background-color: #e2e4e4;
+  color:#060606;
+
+  border-radius: 1em ;
+  font-size: 25px;
+  margin-top: 50px;
+  padding: 0.2em 0 0.5em 1.5em;
+  border: 0 !important;
+}
