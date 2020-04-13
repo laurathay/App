@@ -176,3 +176,10 @@ font-size: 25px;
   font-style: bold;
   font-size: 2em!important;
 }
+
+
+/*-------- price page ------- */
+
+.price-space p {
+  margin-left: 17em;
+}
