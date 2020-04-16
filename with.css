@@ -85,6 +85,18 @@ header label::before {
     transition: background-color .2s;
 }
 
+/* lifestyle page*/
+.icone-infos button{
+  border: none;
+  color:inherit;
+  padding: 0px 0px;
+}
+
+.lifestyle-p{
+  margin-left: 2em;
+  margin-top: -1em;
+}
+
 .what-container label::before {
   content: '';
   display: block;
@@ -245,6 +257,61 @@ font-size: 25px;
   margin-left: 5em;
   padding-right: 3em;
 }
+
+/* partie JS */
+
+.icone-afficher{
+  width: 1%;
+
+
+}
+
+.bouton-afficher{
+  border: none;
+  color:inherit;
+  padding: 0px 0px;
+}
+
+.infos-description{
+  margin-left: 11em;
+  margin-top: -1em;
+  font-size: 0.5em;
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .trip-container .grand-container{
   width: 50%;
