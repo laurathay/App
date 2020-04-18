@@ -15,6 +15,10 @@ header{
   margin-left: 1.5em;
 }
 
+a{
+text-decoration: none;
+}
+
 .inline .titre-with, .icone-infos{
   display: inline-block;
 }
